@@ -17,8 +17,9 @@ code {
 /* ---------------- NAV --------------- */
 .header {
   width: 100dvw;
-  height: 10%;
+  height: 7dvh;
   background-color: var(--black);
+  color: var(--white);
 }
 
 .dropdown-menu {
@@ -106,9 +107,9 @@ code {
     .hamb-menu {
       display: block;
       width: 3rem;
-      height: 3rem;
+      height: 2rem;
 
-      margin: 15px 0;
+      margin: 1rem 0;
 
       .menu-line {
         stroke: var(--white);
@@ -148,7 +149,6 @@ code {
 .drop-the-menu-down {
   transform: translateY(0);
 }
-
 
 /* ----------------- FOOTER ------------------ */
 .footer {

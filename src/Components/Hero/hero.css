@@ -1,0 +1,56 @@
+.hero {
+    width: 100vw;
+    height: 93dvh;
+    position: relative;
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .hero-media {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        z-index: -1;
+    }
+
+    .hero-content {
+        width: 70%;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .static-border {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        width: 100%;
+        height: auto;
+
+        :nth-child(1) {
+            opacity: 25%;
+        }
+
+        :nth-child(2) {
+            opacity: 50%
+        }
+
+        :nth-child(3) {
+            opacity: 75%;
+        }
+    }
+}
