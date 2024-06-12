@@ -109,6 +109,24 @@ code {
       height: 3rem;
 
       margin: 15px 0;
+
+      .menu-line {
+        stroke: var(--white);
+        stroke-width: 3px;
+        stroke-dasharray: 80;
+        transform-box: fill-box;
+        
+        
+       &.middle {
+        --menu-offset: 80;
+       }
+       &.top {
+        --menu-rotate: 40deg;
+       }
+       &.bottom {
+        --menu-rotate: -40deg;
+       }
+      }
     }
   }
 
@@ -118,8 +136,12 @@ code {
   }
 }
 
+.o {
+  animation: to-open-menu .5s ease-in-out forwards;
+}
+
 .x {
-  fill: red;
+  animation: to-menu-close .5s ease-in-out forwards;
 }
 
 .drop-the-menu-down {
@@ -137,4 +159,34 @@ code {
 .wrapper {
   width: 90dvw;
   margin: 0 auto;
+}
+
+
+/* ------------------ ANIMATIONS ---------------- */
+@keyframes to-menu-close {
+  0% {
+    stroke-dashoffset: 0;
+    rotate: 0;
+  }
+  40% {
+    stroke-dashoffset: var(--menu-offset, 0);
+  }
+  100% {
+    stroke-dashoffset: var(--menu-offset);
+    rotate: var(--menu-rotate);
+  }
+}
+
+@keyframes to-open-menu {
+  100% {
+    stroke-dashoffset: 0;
+    rotate: 0;
+  }
+  60% {
+    stroke-dashoffset: var(--menu-offset, 0);
+  }
+  0% {
+    stroke-dashoffset: var(--menu-offset);
+    rotate: var(--menu-rotate);
+  }
 }

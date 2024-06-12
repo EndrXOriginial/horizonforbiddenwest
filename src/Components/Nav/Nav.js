@@ -4,13 +4,25 @@ const Nav = () => {
     const dropMenu = (e) => {
         let dropdown = document.getElementById('dropdown');
         let menuButton = e.target;
+        let menuLines = document.querySelectorAll('.menu-line');
 
-        if (menuButton.classList.contains('x')) {
-            menuButton.classList.remove('x');
+        if (menuLines[0].classList.contains('x')) {
+            menuLines.forEach(line => {
+                line.classList.remove('x');
+                line.classList.add('o');
+            });
             dropdown.classList.remove('drop-the-menu-down');
+        } else if (menuLines[0].classList.contains('o')) {
+            menuLines.forEach(line => {
+                line.classList.remove('o');
+                line.classList.add('x');
+            })
+            dropdown.classList.add('drop-the-menu-down');
         } else {
-            menuButton.classList.add('x');
-            dropdown.classList.add('drop-the-menu-down')
+            menuLines.forEach(line => {
+                line.classList.add('x');
+            });
+            dropdown.classList.add('drop-the-menu-down');
         }
     }
 
@@ -30,9 +42,11 @@ const Nav = () => {
                     <a href="#characters"><li className="nav-list-item">Charaters</li></a>
                     <a href="#monsters"><li className="nav-list-item">Monsters</li></a>
                 </ul>
-                <svg onClick={dropMenu} className='hamb-menu' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
-                    <path d="M 5 9 L 5 11 L 45 11 L 45 9 L 5 9 z M 5 24 L 5 26 L 45 26 L 45 24 L 5 24 z M 5 39 L 5 41 L 45 41 L 45 39 L 5 39 z"></path>
-            </svg>
+                <svg onClick={dropMenu} className='hamb-menu' viewBox="0 0 100 100" fill='var(--white)'>
+                    <line className='menu-line top' x1='10' x2='90' y1='25' y2='25'></line>
+                    <line className='menu-line middle' x1='10' x2='90' y1='50' y2='50'></line>
+                    <line className='menu-line bottom' x1='10' x2='90' y1='75' y2='75'></line>
+                </svg>
             </nav>
         </header>
     )
