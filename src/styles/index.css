@@ -27,7 +27,7 @@ code {
   z-index: 4;
   background-color: var(--black);
 
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
 
@@ -131,6 +131,7 @@ code {
   }
 
   .dropdown-menu {
+    display: flex;
     transform: translateY(-100%);
     transition: all .3s ease-in-out;
   }
