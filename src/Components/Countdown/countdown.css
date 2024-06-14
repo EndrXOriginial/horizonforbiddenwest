@@ -1,3 +1,8 @@
 .countdown {
     background-color: var(--black);
+    color: var(--white);
+
+    span {
+        color: var(--blue);
+    }
 }

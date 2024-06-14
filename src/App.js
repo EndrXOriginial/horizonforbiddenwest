@@ -4,7 +4,7 @@ import Countdown from './Components/Countdown/Countdown';
 
 function App() {
   return (
-    <div>
+    <div className='div-wrapper'>
       <Hero />
       <Countdown />
     </div>
