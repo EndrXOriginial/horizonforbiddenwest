@@ -39,19 +39,6 @@ const Timer = () => {
             setSeconds([theSeconds[0], theSeconds[1]]);
         }
 
-        // console.log(`Days: ${theDays}\nHours: ${theHours}\nMinutes: ${theMinutes}\nSeconds: ${theSeconds}`);
-        
-        // setSeconds(!theSeconds ? [0, 0] : [...theSeconds.toString()].map(Number));
-        // setMinutes(!theMinutes ? [0, 0] : [...theMinutes.toString()].map(Number));
-        // setHours(!theHours ? [0, 0] : [...theHours.toString()].map(Number));
-        // setDays(!theDays ? [0, 0] : [...theDays.toString()].map(Number));
-        
-        // if (days.length === 1) setDays([0, ...days]);
-        // if (hours.length === 1) setHours([0, ...hours]);
-        // if (minutes.length === 1) setMinutes([0, ...minutes]);
-        // if (seconds.length === 1) setSeconds([0, ...seconds]);
-
-        // console.log(`Days: ${days[0]}${days[1]}\nHours: ${hours[0]}${hours[1]}\nMinutes: ${minutes[0]}${minutes[1]}\nSeconds: ${seconds[0]}${seconds[1]}`);
     };
 
     useEffect(() => {
