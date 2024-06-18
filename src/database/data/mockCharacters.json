@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "name": "Aloy",
+        "description": "Aloy is the greatest machine hunter in the world of Horizon. Strong, independent, clever and compassionate, she started off as a motherless outcast and rose up to be a champion for all humankind. Along with all that, she's got a powerful drive to unravel the mysteries of the Forbidden West, stop the blight and save the planet.",
+        "picture": "https://gmedia.playstation.com/is/image/SIEPDC/horizon-forbidden-west-aloy-nora-huntress-image-block-02-en-19jan22?$1600px--t$"
+    },
+    {
+        "id": 2,
+        "name": "Sylens",
+        "description": "Little is truly known about Sylens. A wandering scholar, sage and warrior, his past is a series of whispers, misdirections, and enigmas – all of which he encourages. As long as he can stay unseen in the shadows, he can freely pursue his obsession: learning everything he can about the origins of man and machine.",
+        "picture": "https://gmedia.playstation.com/is/image/SIEPDC/horizon-forbidden-west-sylens-image-block-02-en-19jan22?$1600px--t$"
+    },
+    {
+        "id": 3,
+        "name": "Erend",
+        "description": "Erend is one of Aloy’s loyal companions. He is the Captain of the Vanguard, an elite group of warriors from the Oseram tribe. He can be courageous, humorous, and at times, self-effacing. But beneath that burly exterior is a good heart and a vulnerable soul that Aloy wants to protect.",
+        "picture": "https://gmedia.playstation.com/is/image/SIEPDC/horizon-forbidden-west-erend-image-block-02-en-19jan221?$1600px--t$"
+    },
+    {
+        "id": 4,
+        "name": "Varl",
+        "description": "A warrior from the Nora tribe, Varl is one of Aloy’s returning companions in Horizon Forbidden West. Based on the events from the end of Horizon Zero Dawn, he, like many in the tribe, sees Aloy as the Anointed, a religious figure from the Nora’s beliefs who he is duty-bound to help. But more than that, he is kind and caring, and worries about Aloy as a person and the weight of the burden she carries.",
+        "picture": "https://gmedia.playstation.com/is/image/SIEPDC/horizon-forbidden-west-varl-image-block-02-en-19jan22?$1600px--t$"
+    },
+    {
+        "id": 5,
+        "name": "Regalla",
+        "description": "Fearless and unrelenting, Regalla is the leader of a rebel faction of Tenakth warriors. Somehow, her forces have gained the ability to tame and ride machines, making her a threat to every tribe in the Forbidden West, and beyond.",
+        "picture": "https://gmedia.playstation.com/is/image/SIEPDC/horizon-forbidden-west-regalla-mask-image-block-02-en-19jan22?$1600px--t$"
+    },
+    {
+        "id": 6,
+        "name": "Kotallo",
+        "description": "Raised by the Tenakth Sky Clan, Kotallo is a stoic and imposing warrior. As a young soldier, he became a Marshal – a roving lawgiver who enforces the peace that the tribe's leader, Hekarro, has established.",
+        "picture": "https://gmedia.playstation.com/is/image/SIEPDC/horizon-forbidden-west-kotallo-arms-image-block-02-en-19jan22?$1600px--t$"
+    },
+    {
+        "id": 7,
+        "name": "Zo",
+        "description": "Zo hails from the agrarian tribe of the Utaru. She has devoted herself to providing care and comfort to her people as a Gravesinger – one who helps the ailing make a peaceful transition into death.",
+        "picture": "https://gmedia.playstation.com/is/image/SIEPDC/horizon-forbidden-west-zo-image-block-02-en-19jan22?$1600px--t$"
+    }, {
+        "id": 8,
+        "name": "Alva",
+        "description": "Alva is a member of a mysterious new tribe that Aloy encounters in the Forbidden West. Curious and brilliant but unsure of herself, her job is to help her people interpret the ancient past.",
+        "picture": "https://gmedia.playstation.com/is/image/SIEPDC/horizon-forbidden-west-alva-image-block-02-en-19jan22?$1600px--t$"
+    }, {
+        "id": 9,
+        "name": "Tilda",
+        "description": "Alva is a member of a mysterious new tribe that Aloy encounters in the Forbidden West. Curious and brilliant but unsure of herself, her job is to help her people interpret the ancient past.",
+        "picture": "https://gmedia.playstation.com/is/image/SIEPDC/horizon-forbidden-west-tilda-image-block-02-en-19jan22?$1600px--t$"
+    }, {
+        "id": 10,
+        "name": "Gaia",
+        "description": "GAIA is the central governing intelligence of the Zero Dawn terraforming system, responsible for bringing life back to a barren Earth after its destruction a thousand years ago. As told in Horizon Zero Dawn, she sacrificed herself to stop HADES and, in the process, ordered the creation of Aloy. She’ll be making a return in Horizon Forbidden West to help Aloy stop the blight and save humankind.",
+        "picture": "https://gmedia.playstation.com/is/image/SIEPDC/horizon-forbidden-west-gaia-image-block-03-en-31jan22?$1600px$"
+    }
+]

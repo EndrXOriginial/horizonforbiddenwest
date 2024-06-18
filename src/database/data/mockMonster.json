@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "name": "Bristleback",
+        "description": "Despite being herd-based acquisition machines, Bristlebacks can become highly aggressive when threatened, using their tusks to great effect."
+    }, {
+        "id": 2,
+        "name": "Clamberjaw",
+        "description": "Fierce, fast and agile, the Clamberjaw uses its claws and tail to salvage scrap. It clings to walls with ease and possesses a range of abilities that debilitate opponents."
+    }, {
+        "id": 3,
+        "name": "Tremortusk",
+        "description": "Part combat-class machine, part lumbering fortress, the formidable Tremortusk charges into battle with nigh-indestructible armor and an array of hidden weapons."
+    }, {
+        "id": 4,
+        "name": "Shellsnapper",
+        "description": "The amphibious Shellsnapper can dig itself in and lie dormant for days or even weeks, allowing its impenetrable shell to become covered by the surrounding foliage."
+    }, {
+        "id": 5,
+        "name": "Clawstrider",
+        "description": "The Clawstrider is a fast and agile combat machine and can be mounted to cross the Forbidden West at top speed."
+    }, {
+        "id": 6,
+        "name": "Sunwing",
+        "description": "Sunwings use their photovoltaic wings to store energy. On bright days, they can be seen hovering high in the air to catch as much sun as possible."
+    }, {
+        "id": 7,
+        "name": "Burrower",
+        "description": "The Burrower is a recon machine that emits a high-pitched sound to alert allies and stun enemies. It can tunnel underground and resurface in unexpected locations."
+    }, {
+        "id": 8,
+        "name": "Slitherfang",
+        "description": "An enormous, fast combat machine that can lash out from long range. Once it assumes a coiled stance, it has access to its full arsenal as its rotating body parts snap into place."
+    }
+]
