@@ -20,12 +20,42 @@
     --ff-p: "Encode Sans", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 h1, h2, h3 {
     font-family: var(--ff-title);
     font-weight: medium;
     letter-spacing: 3%;
 }
 
+h1 {
+    font-size: var(--fz-h1-mobile);
+}
+h2 {
+    font-size: var(--fz-h2-mobile);
+}
+h3 {
+    font-size: var(--fz-h3-mobile);
+}
+
 p {
     font-family: var(--ff-p);
+    font-size: var(--fz-p-mobile);
+}
+
+@media screen and (min-width: 1430px) {
+    h1 {
+        font-size: var(--fz-h1-desktop);
+    }
+    h2 {
+        font-size: var(--fz-h2-desktop);
+    }
+    h3 {
+        font-size: var(--fz-h3-desktop);
+    }
+    p {
+        font-size: var(--fz-p-desktop);
+    }
 }

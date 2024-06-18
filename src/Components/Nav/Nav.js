@@ -5,6 +5,7 @@ const Nav = () => {
         let dropdown = document.getElementById('dropdown');
         let menuButton = e.target;
         let menuLines = document.querySelectorAll('.menu-line');
+        let menuLinks = document.querySelectorAll('.dropdown-menu-a');
 
         if (menuLines[0].classList.contains('x')) {
             menuLines.forEach(line => {
@@ -24,21 +25,31 @@ const Nav = () => {
             });
             dropdown.classList.add('drop-the-menu-down');
         }
+
+        menuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                menuLines.forEach(line => {
+                    line.classList.remove('x');
+                    line.classList.add('o');
+                });
+                dropdown.classList.remove('drop-the-menu-down');
+            })
+        });
     }
 
     return (
         <header className="header">
             <div className='dropdown-menu' id='dropdown'>
                 <ul className='dropdown-menu-ul'>
-                    <a className='dropdown-menu-a'><li className='dropdown-menu-item'>About</li></a>
-                    <a className='dropdown-menu-a'><li className='dropdown-menu-item'>Charaters</li></a>
-                    <a className='dropdown-menu-a'><li className='dropdown-menu-item'>Monsters</li></a>
+                    <a className='dropdown-menu-a' href='#summary'><li className='dropdown-menu-item'>About</li></a>
+                    <a className='dropdown-menu-a' href='#characters'><li className='dropdown-menu-item'>Charaters</li></a>
+                    <a className='dropdown-menu-a' href='#monsters'><li className='dropdown-menu-item'>Monsters</li></a>
                 </ul>
             </div>
             <nav className="nav wrapper">
                 <img className="logo" src={Logo}/>
                 <ul className="nav-ul">
-                    <a href="#about"><li className="nav-list-item">About</li></a>
+                    <a href="#summary"><li className="nav-list-item">About</li></a>
                     <a href="#characters"><li className="nav-list-item">Charaters</li></a>
                     <a href="#monsters"><li className="nav-list-item">Monsters</li></a>
                 </ul>
