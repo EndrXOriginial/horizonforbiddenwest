@@ -1,6 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Kanit:wght@400;500&display=swap');
+
 :root {
     --black: #150E10;
     --white: #E5E3E1;
     --black-hover: #524B4D;
     --blue: #4AA4DD;
+
+    --fz-h1-mobile: 1.7rem;
+    --fz-h2-mobile: 1.5rem;
+    --fz-h3-mobile: 1.3rem;
+    --fz-p-mobile: 1rem;
+
+    --fz-h1-desktop: 2rem;
+    --fz-h2-desktop: 1.7rem;
+    --fz-h3-desktop: 1.5rem;
+    --fz-p-desktop: 1.2rem;
+
+    --ff-title: "Kanit", sans-serif;
+    --ff-p: "Encode Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: var(--ff-title);
+    font-weight: medium;
+    letter-spacing: 3%;
+}
+
+p {
+    font-family: var(--ff-p);
 }
