@@ -1,0 +1,15 @@
+.characters {
+    .characters-wrapper {
+        width: 80vw;
+        margin: 0 auto;
+
+        .characters-title {
+            text-align: center;
+        }
+    }
+
+    .swiper {
+        width: 90vw;
+        height: 30vh;
+    }
+}

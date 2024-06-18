@@ -1,4 +1,4 @@
-import Timer from '../Timer/Timer';
+import Timer from './Timer/Timer';
 import './countdown.css';
 
 const Countdown = () => {
