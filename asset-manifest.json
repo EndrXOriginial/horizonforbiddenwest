@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/horizonforbiddenwest/static/css/main.9588b7bb.css",
+    "main.js": "/horizonforbiddenwest/static/js/main.729d8773.js",
+    "static/js/453.a60f0414.chunk.js": "/horizonforbiddenwest/static/js/453.a60f0414.chunk.js",
+    "static/media/heroImg.png": "/horizonforbiddenwest/static/media/heroImg.f00f48369a3bbf954fee.png",
+    "static/media/horizonLogoV2.svg": "/horizonforbiddenwest/static/media/horizonLogoV2.214e0b246e6fc87ac02bd2c17c2130e2.svg",
+    "static/media/horizonLogo.svg": "/horizonforbiddenwest/static/media/horizonLogo.f78d0bce9b5c21b477b0b4acbf4f222a.svg",
+    "static/media/aloy-forest.png": "/horizonforbiddenwest/static/media/aloy-forest.203498a29de44fc381a3.png",
+    "static/media/aloy-shellsnaper.png": "/horizonforbiddenwest/static/media/aloy-shellsnaper.d54c093aa8eeefd31907.png",
+    "static/media/aloy-hollywood.png": "/horizonforbiddenwest/static/media/aloy-hollywood.ffe79210cc0812b7f5e5.png",
+    "static/media/aloy-top-of-wall.png": "/horizonforbiddenwest/static/media/aloy-top-of-wall.8467644d78297e104d4d.png",
+    "index.html": "/horizonforbiddenwest/index.html",
+    "main.9588b7bb.css.map": "/horizonforbiddenwest/static/css/main.9588b7bb.css.map",
+    "main.729d8773.js.map": "/horizonforbiddenwest/static/js/main.729d8773.js.map",
+    "453.a60f0414.chunk.js.map": "/horizonforbiddenwest/static/js/453.a60f0414.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9588b7bb.css",
+    "static/js/main.729d8773.js"
+  ]
+}
