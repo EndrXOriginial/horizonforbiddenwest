@@ -7,7 +7,8 @@ const getMonsters = () => {
         data.push({
             id: monster.id,
             name: monster.name,
-            description: monster.description
+            description: monster.description,
+            picture: monster.picture
         });
     });
 
@@ -51,12 +52,5 @@ const getCharactersById = (id) => {
         character: data
     })
 };
-
-// module.exports = {
-//     getMonsters,
-//     getMonsterById,
-//     getCharacters,
-//     getCharactersById
-// }
 
 export {getCharacters, getCharactersById, getMonsterById, getMonsters};

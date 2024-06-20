@@ -1,0 +1,32 @@
+.footer {
+    color: var(--white);
+    
+    .footer-div {
+        width: 90vw;
+        margin: 0 auto;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        p {
+            font-size: 0.8rem !important;
+        }
+
+        a:visited {
+            color: var(--white);
+            text-decoration: var(--white);
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .footer {
+        padding: 10px 0;
+        
+        .footer-div {
+            text-align: center;
+            display: block;
+        }
+    }
+}

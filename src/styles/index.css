@@ -98,6 +98,11 @@ code {
   /* background-color: red; */
 }
 
+.dropdown-menu a:visited {
+  text-decoration-color: var(--black);
+  color: var(--white);
+}
+
 @media screen and (max-width: 450px) {
   .nav .hamb-menu {
     width: 2rem;

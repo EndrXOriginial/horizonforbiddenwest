@@ -22,6 +22,7 @@ const SwiperCharacters = (prop) => {
         } catch (e) {
             setError(e);
         }
+        
         setIsLoading(false);
     }, []);
 
